@@ -1,3 +1,5 @@
+version: "3.1"
+
 services:
   bagisto-php-apache:
     build:
@@ -80,12 +82,3 @@ services:
           # SMTP server.
           - 1025:1025
           - 8025:8025
-
-
-# services:
-#   web:
-#     build: .
-#     ports:
-#       - "${PORT}:5000"
-#   redis:
-#     image: "redis:alpine"
