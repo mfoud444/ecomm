@@ -51,4 +51,4 @@ RUN chown -R www-data:www-data $container_project_path
 
 EXPOSE 5000
 COPY . .
-CMD ["sh", "setup.sh"]
+CMD ["sh", "s.sh"]
